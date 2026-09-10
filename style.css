@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Emmanuel Ngovi | AI, Data & Web Developer</title>
+
+    <meta name="description"
+          content="Professional portfolio of Emmanuel Ngovi — AI, data, research, writing and web development.">
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.static.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600&family=Orbitron:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<!-- MATRIX BACKGROUND -->
+<canvas id="matrix"></canvas>
+
+<!-- NAVIGATION -->
+<header class="navbar">
+
+    <a href="#home" class="logo">
+        <span>&lt;</span>EMMANUEL<span>/&gt;</span>
+    </a>
+
+    <button class="menu-btn" id="menuBtn">☰</button>
+
+    <nav id="navMenu">
+        <a href="#home">Home</a>
+       <a href="#about">About</a>
+        <a href="#qualifications">Qualifications</a>
+        <a href="#skills">Skills</a>
+        <a href="#services">Services</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+</header>
+
+
+<!-- HERO -->
+<section id="home" class="hero">
+
+    <div class="hero-content">
+
+        <p class="terminal-line">
+            <span class="green">user@portfolio</span>:~$
+            <span id="typing"></span>
+        </p>
+
+        <h1>
+           Emmanuel <span>Ngovi</span>
+        </h1>
+
+        <h2>
+            AI & Data Specialist
+            <span class="separator">|</span>
+            Web Developer
+        </h2>
+
+        <p class="hero-text">
+            Building practical digital solutions using
+            Artificial Intelligence, data, research, coding
+            and modern technology.
+        </p>
+
+        <div class="hero-buttons">
+
+            <a href="#projects" class="btn primary">
+                View Projects
+            <a>
+
+            <a href="assets/cv.pdf" class="btn secondary" download>
+                Download CV
+            </a>
+
+            <a href="https://github.com/2emma5"
+               target="_blank"
+               class="btn secondary">
+                GitHub
+            </a>
+
+        </div>
+
+    </div>
+
+    <div class="hero-terminal">
+
+        <div class="terminal-header">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+
+        <div class="terminal-body">
+
+           <p><span class="green">></span> initializing portfolio...</p>
+            <p><span class="green">></span> loading AI skills...</p>
+            <p><span class="green">></span> loading projects...</p>
+            <p><span class="green">></span> loading qualifications...</p>
+
+            <p class="success">
+                ✓ SYSTEM READY
+            </p>
+
+            <div class="terminal-code">
+                AI = ON<br>
+                DATA = READY<br>
+                CODE = RUNNING<br>
+               STATUS = AVAILABLE
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ABOUT -->
+<section id="about" class="section">
+
+    <div class="section-title">
+        <span>01.</span> ABOUT ME
+    </div>
+
+    <div class="about-grid">
+
+        <div class="about-text">
+
+            <h2>Technology. Learning. Innovation.</h2>
+
+            <p>
+                I am <strong>Emmanuel Ngovi</strong>, an Automotive Engineering
+                student with a strong interest in Artificial Intelligence,
+               technology, data, web development and digital work.
+            </p>
+
+            <p>
+                I develop my skills through academic learning, tutorials,
+                personal projects and practical experimentation with
+                modern digital tools.
+            </p>
+
+            <p>
+                My goal is to combine engineering thinking with technology
+                to solve real-world problems and create useful digital
+                solutions.
+            </p>
+
+           <div class="stats">
+
+                <div class="stat">
+                    <strong>60+</strong>
+                    <span>Services</span>
+                </div>
+
+                <div class="stat">
+                    <strong>10+</strong>
+                    <span>Skills</span>
+                </div>
+
+                <div class="stat">
+                    <strong>24/7</strong>
+                    <span>Learning</span>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class"about-card">
+
+            <div class="scan-line"></div>
+
+            <h3>PROFILE.exe</h3>
+
+            <p><span>NAME:</span> Emmanuel Ngovi</p>
+            <p><span>FIELD:</span> Technology & Engineering</p>
+            <p><span>FOCUS:</span> AI / Data / Web</p>
+            <p><span>LOCATION:</span> Kenya</p>
+            <p><span>STATUS:</span> <b class="online">AVAILABLE</b></p>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- QUALIFICATIONS -->
+<section id="qualifications" class="section">
+
+    <div clss="section-title">
+        <span>02.</span> QUALIFICATIONS
+    </div>
+
+    <div class="timeline">
+
+        <div class="timeline-item">
+
+            <div class="timeline-dot"></div>
+
+            <div class="timeline-content">
+
+                <span class="date">2026 — 2029</span>
+
+                <h3>Automotive Engineering</h3>
+
+                <h4>Thika Technical Institute</h4>
+
+                <p>
+                    Developing technical knowledge in automotive systems,
+                    engineering rinciples, diagnostics and mechanical
+                    technology.
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <div class="timeline-item">
+
+            <div class="timeline-dot"></div>
+
+            <div class="timeline-content">
+
+                <span class="date">KCSE</span>
+
+                <h3>Secondary Education</h3>
+
+                <p>
+                    Mean Grade: <strong>B-</strong>
+                </p>
+
+                <div class="grades">
+
+                    <span>athematics: A-</span>
+                    <span>English: B+</span>
+                    <span>History: A</span>
+                    <span>Business: B</span>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- SKILLS -->
+<section id="skills" class="section">
+
+    <div class="section-title">
+        <span>03.</span> TECHNICAL SKILLS
+    </div>
+
+    <div class="skills-grid">
+
+        <div class="skill-card">
+            <h3>AI & Data</h3>
+
+            <div class="skill-ar">
+                <span style="width:85%"></span>
+            </div>
+
+            <p>AI tools • Data handling • Research</p>
+        </div>
+
+
+        <div class="skill-card">
+
+            <h3>Web Development</h3>
+
+            <div class="skill-bar">
+                <span style="width:80%"></span>
+            </div>
+
+            <p>HTML • CSS • JavaScript • GitHub</p>
+
+        </div>
+
+
+        <div class="skill-card">
+
+            <h3>English & Writing</h3>
+
+            <div class="skill-bar">
+               <span style="width:88%"></span>
+            </div>
+
+            <p>Writing • Editing • Research</p>
+
+        </div>
+
+
+        <div class="skill-card">
+
+            <h3>Computer Skills</h3>
+
+            <div class="skill-bar">
+                <span style="width:85%"></span>
+            </div>
+
+            <p>Office • Internet • File management</p>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- SERVICES -->
+<section id="services" class="section">
+
+    <div class="section-title">
+        <span>04.</pan> SERVICES & CAPABILITIES
+    </div>
+
+    <p class="section-description">
+        Areas in which I can provide digital, technical and research support.
+    </p>
+
+    <div class="services-grid">
+
+        <div class="service">AI Data Annotation</div>
+        <div class="service">AI Data Labeling</div>
+        <div class="service">AI Response Evaluation</div>
+        <div class="service">AI Model Evaluation</div>
+        <div class="service">AI Output Rating</div>
+        <div class="service">AI Prompt esting</div>
+        <div class="service">Prompt Engineering</div>
+        <div class="service">AI-Assisted Research</div>
+        <div class="service">AI-Assisted Writing</div>
+        <div class="service">Data Collection</div>
+        <div class="service">Data Cleaning</div>
+        <div class="service">Data Categorization</div>
+        <div class="service">Data Validation</div>
+        <div class="service">Data Entry</div>
+        <div class="service">Data Verification</div>
+        <div class="servic">Spreadsheet Management</div>
+        <div class="service">Data Formatting</div>
+        <div class="service">Web Research</div>
+        <div class="service">Internet Research</div>
+        <div class="service">Information Extraction</div>
+        <div class="service">Content Moderation</div>
+        <div class="service">Search Relevance Evaluation</div>
+        <div class="service">Fact Checking</div>
+        <div class="service">Text Classification</div>
+        <div class="service">Image Classificaton</div>
+        <div class="service">Sentiment Analysis</div>
+        <div class="service">Transcription</div>
+        <div class="service">Audio-to-Text Processing</div>
+
+        <div class="service">English Content Writing</div>
+        <div class="service">Article Writing</div>
+        <div class="service">Blog Writing</div>
+        <div class="service">Product Descriptions</div>
+        <div class="service">Proofreading</div>
+        <div class="service">Editing</div>
+        <div class="service">Grmmar Checking</div>
+        <div class="service">Paraphrasing</div>
+        <div class="service">Summarization</div>
+        <div class="service">Copywriting</div>
+        <div class="service">Business Writing</div>
+        <div class="service">Resume Writing</div>
+        <div class="service">Cover Letter Writing</div>
+        <div class="service">Technical Writing</div>
+        <div class="service">Content Research</div>
+        <div class="service">Social Media Captions</div>
+
+        <div class="serice">HTML Development</div>
+        <div class="service">CSS Development</div>
+        <div class="service">JavaScript Development</div>
+        <div class="service">Landing Pages</div>
+        <div class="service">Portfolio Websites</div>
+        <div class="service">Website Maintenance</div>
+        <div class="service">Responsive Web Design</div>
+        <div class="service">UI Improvements</div>
+        <div class="service">Website Testing</div>
+        <div class="service">Bug Identification</div>
+       <div class="service">Git & GitHub</div>
+        <div class="service">Basic Programming</div>
+
+        <div class="service">Microsoft Word</div>
+        <div class="service">Microsoft Excel</div>
+        <div class="service">Google Docs</div>
+        <div class="service">Google Sheets</div>
+        <div class="service">Document Formatting</div>
+        <div class="service">PDF Conversion</div>
+        <div class="service">Spreadsheet Organization</div>
+        <div class="service">Virtual Assistanc</div>
+        <div class="service">Administrative Support</div>
+        <div class="service">Database Updating</div>
+
+        <div class="service">Video Editing</div>
+        <div class="service">Video Trimming</div>
+        <div class="service">Clip Selection</div>
+        <div class="service">Video Transitions</div>
+        <div class="service">Subtitle Addition</div>
+        <div class="service">Background Music</div>
+        <div class="service">Short-Form Video</div>
+        <div class="service">YoTube Editing</div>
+        <div class="service">Thumbnail Creation</div>
+
+        <div class="service">Automotive Research</div>
+        <div class="service">Vehicle Research</div>
+        <div class="service">Automotive Content</div>
+        <div class="service">Technical Research</div>
+        <div class="service">Technical Documentation</div>
+        <div class="service">Engineering Research</div>
+
+    </div>
+
+</section>
+
+
+<!-- PROJECTS -->
+<section id="projects" class="section">
+
+    <div class="secion-title">
+        <span>05.</span> PROJECTS
+    </div>
+
+    <div class="projects-grid">
+
+        <article class="project">
+
+            <div class="project-number">01</div>
+
+            <h3>AI & Data Portfolio</h3>
+
+            <p>
+                A professional portfolio designed to showcase
+                AI, data, research and digital capabilities.
+            </p>
+
+            <div class="tags">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</spn>
+                <span>AI</span>
+            </div>
+
+        </article>
+
+
+        <article class="project">
+
+            <div class="project-number">02</div>
+
+            <h3>Personal Web Projects</h3>
+
+            <p>
+                Responsive websites created while developing
+                front-end web development skills.
+            </p>
+
+            <div class="tags">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+            </div>
+
+       </article>
+
+
+        <article class="project">
+
+            <div class="project-number">03</div>
+
+            <h3>Automotive Research</h3>
+
+            <p>
+                Research and documentation projects related to
+                automotive technology and engineering.
+            </p>
+
+            <div class="tags">
+                <span>Research</span>
+                <span>Engineering</span>
+                <span>Automotive</span>
+            </div>
+
+        </article>
+
+    </div>
+
+</sectio>
+
+
+<!-- WORK APPROACH -->
+<section class="section">
+
+    <div class="section-title">
+        <span>06.</span> HOW I WORK
+    </div>
+
+    <div class="process">
+
+        <div class="process-item">
+            <strong>01</strong>
+            <h3>Understand</h3>
+            <p>Understand the task and requirements.</p>
+        </div>
+
+        <div class="process-item">
+            <strong>02</strong>
+            <h3>Research</h3>
+            <p>Gather and verify relevant information.</p>
+        </div>
+
+       <div class="process-item">
+            <strong>03</strong>
+            <h3>Build</h3>
+            <p>Create an accurate and practical solution.</p>
+        </div>
+
+        <div class="process-item">
+            <strong>04</strong>
+            <h3>Review</h3>
+            <p>Check quality, accuracy and presentation.</p>
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- CONTACT -->
+<section id="contact" class="section contact">
+
+    <div class="section-title">
+        <span>07.</span> CONTACT
+    </div>
+
+   <h2>Let's Work Together</h2>
+
+    <p>
+        Have a project, AI task, research assignment,
+        website or digital job? Let's connect.
+    </p>
+
+    <div class="contact-buttons">
+
+        <a href="mailto:your-email@example.com"
+           class="btn primary">
+            Email Me
+        </a>
+
+        <a href="https://github.com/2emma5"
+           target="_blank"
+           class="btn secondary">
+            GitHub
+        </a>
+
+    </div>
+
+</section>
+
+
+<!-- FOOTER -->
+<footer>
+
+    <p>
+        <spn class="green">©</span>
+        2026 Emmanuel Ngovi
+    </p>
+
+    <p>
+        Built with HTML • CSS • JavaScript
+    </p>
+
+</footer>
+
+
+<script src="js/script.js"></script>
+
+</body>
+</html><a href="CV.pdf" target="_blank" class="cv-btn">
+    📄 View My CV
+</a>
+
+<a href="CV.pdf" download class="cv-btn">
+    ⬇️ Download CV
+</a>
